@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -20,12 +20,12 @@ body {
     overflow: hidden;
 }
 
-body h1, body p, body span, a {
+body h1, body p, body span, a{
     text-shadow: 0 0 7px #14FDCE;
 }
 
 
-body::before {
+body::before{
     content: "";
     position: absolute;
     top: 0;
@@ -44,7 +44,7 @@ body::before {
     background-size: 100% 4px;
 }
 
-body::after {
+body::after{
     content: "";
     position: absolute;
     top: 0;
@@ -59,10 +59,6 @@ body::after {
         transparent 70%
     );
     opacity: 0.5;
-}
-
-.access-screen{
-    display: none;
 }
 
 header{
@@ -123,6 +119,8 @@ nav{
     color: #031E11;
     text-shadow: 0 0 7px #031E11;
 
+    cursor: pointer;
+
     border-radius: 8px;
     box-shadow: 0 0 10px #14FDCE;
     transition: 0.2s;
@@ -140,6 +138,9 @@ main{
 
 footer{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     width: 100vw;
     height: 10vh;

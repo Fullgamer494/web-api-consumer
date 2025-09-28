@@ -1,0 +1,193 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    padding: 0 100px;
+}
+
+
+h1{
+    font-size: 36px;
+    font-family: 'Sixtyfour';
+    margin-bottom: 50px;
+}
+
+.daily-quote{
+    margin-bottom: 80px;
+}
+
+.daily-quote blockquote{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.daily-quote figcaption{
+    font-size: 18px;
+    font-style: italic;
+}
+
+main button{
+    padding: 10px 30px;
+
+    background-color: #14FDCE;
+
+    font-size: 20px;
+    font-family: 'Courier New';
+    color: #031E11;
+    text-shadow: 0 0 7px #031E11;
+    cursor: pointer;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px #14FDCE;
+    transition: 0.2s;
+}
+
+main button:hover{
+    background-color: #03b692;
+    box-shadow: 0 0 10px #03b692;
+}
+
+.access-screen{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.access-screen{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: #031E11;
+
+    font-family: 'Courier New';
+    color: #14FDCE;
+    
+    
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5) inset;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.access-screen::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent 1px,
+        rgba(0, 0, 0, 0.4) 2px,
+        rgba(0, 0, 0, 0.4) 3px
+    );
+    background-size: 100% 4px;
+}
+
+.access-screen::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255, 255, 255, 0.05) 0%,
+        transparent 70%
+    );
+    opacity: 0.5;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    width: 30%;
+    height: 70%;
+
+    border: 5px solid #04715c;
+    box-shadow: 0 0 20px #04715c;
+    border-radius: 8px;
+}
+
+.form-logo{
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-logo img{
+    width: 100px;
+}
+
+form{
+    flex: 2;
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+}
+
+form label{
+    font-size: 20px;
+    text-shadow: 0 0 7px #14FDCE;
+}
+
+form input{
+    padding: 8px;
+    margin-bottom: 20px;
+
+    background-color: #172720;
+
+    border-radius: 4px;
+
+    color: #FFFFFF;
+    font-size: 20px;
+    text-shadow: 0 0 7px #14FDCE;
+    font-family: 'Courier New';
+}
+
+form input:focus{
+    outline: 2px solid #14FDCE;
+}
+
+form button{
+    margin-top: 40px;
+    padding: 5px;
+
+    background-color: #14FDCE;
+
+    font-size: 20px;
+    font-family: 'Courier New';
+    color: #031E11;
+    text-shadow: 0 0 7px #031E11;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px #14FDCE;
+    transition: 0.2s;
+}
+
+form button:hover{
+    background-color: #03b692;
+    box-shadow: 0 0 10px #03b692;
+}
