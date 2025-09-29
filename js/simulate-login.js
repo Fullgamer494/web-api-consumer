@@ -16,6 +16,8 @@ function loginAndSave(){
     localStorage.setItem(USER_INPUT_KEY, userInputVariable)
     localStorage.setItem(SESSION_FLAG_KEY, '1')
 
+    window.location.href = 'index.html'
+
     updateStatus()
 }
 
@@ -24,6 +26,8 @@ function logout(){
     localStorage.removeItem(SESSION_FLAG_KEY)
 
     userInputVariable = ''
+
+    window.location.href = 'index.html'
 
     updateStatus()
 }
