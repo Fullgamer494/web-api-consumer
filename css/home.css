@@ -27,7 +27,7 @@ h1{
     font-style: italic;
 }
 
-main .action-btn{
+.action-btn{
     padding: 10px 30px;
 
     background-color: #14FDCE;
@@ -47,4 +47,27 @@ main .action-btn{
 .action-btn:hover{
     background-color: #03b692;
     box-shadow: 0 0 10px #03b692;
+}
+
+
+@media only screen and (max-width: 548px){
+    main{
+        padding: 0 30px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .daily-quote blockquote{
+        font-size: 16px;
+    }
+
+    .daily-quote figcaption{
+        font-size: 14px;
+    }
+
+    .action-btn{
+        font-size: 16px;
+    }
 }
