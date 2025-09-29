@@ -2,9 +2,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 
-    padding: 0 100px;
 }
 
 
