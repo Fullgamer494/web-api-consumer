@@ -10,3 +10,6 @@ const qAuthor = document.getElementById('quote-author')
 
 // Missions criminals grid
 const crimiGrid = document.getElementById('criminals-grid')
+
+// Secret identity
+const profileContainer = document.getElementById('profile-container')
