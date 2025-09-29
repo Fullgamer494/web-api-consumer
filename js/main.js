@@ -1,0 +1,1 @@
+welcomeAgentNum.innerText = userInputVariable

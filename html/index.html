@@ -16,17 +16,17 @@
     <title>FBI</title>
 </head>
 <body>
-    <div class="access-screen">
+    <div class="access-screen" id="access-screen">
         <div class="form">
             <div class="form-logo">
                 <img src="../src/logo.png" alt="">
             </div>
             <form action="">
                 <label for="">Agent Number:</label>
-                <input type="text">
+                <input type="text" id="agentInput">
                 <label for="">Password:</label>
                 <input type="password">
-                <button>Login</button>
+                <button onclick="loginAndSave()">Login</button>
             </form>
         </div>
     </div>
@@ -39,7 +39,7 @@
                 <li><a href="">Home</a></li>
                 <li><a href="">Missions</a></li>
                 <li><a href="">Secret identity</a></li>
-                <button id="logout">Logout</button>
+                <button onclick="logout()">Logout</button>
             </ul>
         </nav>
     </header>
@@ -55,5 +55,8 @@
         <p>&copy; 2025 Upenianos Agent System. 6.7 Version.</p>
     </footer>
 
+    <script src="../js/dom.js"></script>
+    <script src="../js/simulate-login.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
