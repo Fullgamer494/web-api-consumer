@@ -44,3 +44,44 @@ main h1{
 
     object-fit: cover;
 }
+
+@media only screen and (max-width: 548px){
+    h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .criminals-grid{
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(20, 300px);
+    }
+
+    .criminal-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50%;
+    }
+
+    .criminal-img img{
+        width: 80%;
+        height: 80%;
+    }
+
+    .criminal-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        width: 50%;
+    }
+
+    .criminal-info h2{
+        font-size: 18px;
+    }
+    
+    .criminal-info p{
+        font-size: 14px;
+    }
+}
