@@ -34,14 +34,14 @@
         </div>
     </div>
     <header>
-        <nav>
+        <nav id="nav">
             <div class="logo">
                 <img src="../src/logo.png" alt="">
             </div>
-            <div class="menu-bar">
+            <div class="menu-bar" onclick="dropdownMenu()">
                 <i class="ti ti-menu-2"></i>
             </div>
-            <ul class="top-nav">
+            <ul class="top-nav" id="menu-options">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="missions.html">Missions</a></li>
                 <li><a href="secret-identity.html">Secret identity</a></li>
@@ -60,6 +60,7 @@
     </footer>
     
     <script src="../js/dom.js"></script>
+    <script src="../js/menu-dropdown.js"></script>
     <script src="../js/simulate-login.js"></script>
     <script src="../js/api.js"></script>
     <script src="../js/missions.js"></script>

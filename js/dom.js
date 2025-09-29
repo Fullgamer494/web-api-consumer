@@ -13,3 +13,7 @@ const crimiGrid = document.getElementById('criminals-grid')
 
 // Secret identity
 const profileContainer = document.getElementById('profile-container')
+
+// Dropdown menu
+const navBar = document.getElementById('nav')
+const menuOptions = document.getElementById('menu-options')
