@@ -1,7 +1,6 @@
 const API_QUOTES = '/zen/api/random'
-const API_FBI = 'https://api.fbi.gov/wanted/v1/list'
-const API_FAKE_PERSON = 'https://randomuser.me/api/'
-
+const API_FBI = '/fbi/wanted/v1/list'
+const API_FAKE_PERSON = '/person/api/'
 
 async function getAPIData(){
     try{
