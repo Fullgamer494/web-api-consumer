@@ -39,9 +39,11 @@ function updateStatus(){
     if(isLoggedIn == '1'){
         userInputVariable = localStorage.getItem(USER_INPUT_KEY)
         accessScreen.style.display = 'none'
+        menuBar.style.display = 'flex'
     } else{
         userInputVariable = ''
         accessScreen.style.display = 'flex'
+        menuBar.style.display = 'none'
     }
 }
 

@@ -16,4 +16,5 @@ const profileContainer = document.getElementById('profile-container')
 
 // Dropdown menu
 const navBar = document.getElementById('nav')
+const menuBar = document.getElementById('menu-bar')
 const menuOptions = document.getElementById('menu-options')

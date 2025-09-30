@@ -310,7 +310,7 @@ form button:hover{
     .menu-bar{
         flex: 1;
 
-        display: flex;
+        display: none;
         justify-content: end;
 
         padding-right: 40px;
@@ -397,5 +397,18 @@ form button:hover{
 
     footer p{
         font-size: 12px;
+    }
+
+    .form{
+        width: 90%;
+        height: 60%;
+    }
+
+    .form label, .form input{
+        font-size: 16px;
+    }
+
+    .form button{
+        font-size: 16px;
     }
 }
