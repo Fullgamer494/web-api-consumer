@@ -1,7 +1,6 @@
 async function main(){
     const data = await getAPIData()
 
-    console.log(data.person_data.results[0])
     profileContainer.innerHTML = `
         <div class="new-identity-card">
             <div class="new-identity-info">
