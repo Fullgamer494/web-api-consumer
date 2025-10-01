@@ -1,20 +1,19 @@
 // Access screen (login)
-const accessScreen = document.getElementById('access-screen')
-const agentNum = document.getElementById('agentInput')
-const welcomeAgentNum = document.getElementById('agent-num')
-
+export const accessScreen = document.getElementById('access-screen')
+export const agentNum = document.getElementById('agentInput')
+export const welcomeAgentNum = document.getElementById('agent-num')
 
 // Home quotes
-const qText = document.getElementById('quote-text')
-const qAuthor = document.getElementById('quote-author')
+export const qText = document.getElementById('quote-text')
+export const qAuthor = document.getElementById('quote-author')
 
 // Missions criminals grid
-const crimiGrid = document.getElementById('criminals-grid')
+export const crimiGrid = document.getElementById('criminals-grid')
 
 // Secret identity
-const profileContainer = document.getElementById('profile-container')
+export const profileContainer = document.getElementById('profile-container')
 
 // Dropdown menu
-const navBar = document.getElementById('nav')
-const menuBar = document.getElementById('menu-bar')
-const menuOptions = document.getElementById('menu-options')
+export const navBar = document.getElementById('nav')
+export const menuBar = document.getElementById('menu-bar')
+export const menuOptions = document.getElementById('menu-options')

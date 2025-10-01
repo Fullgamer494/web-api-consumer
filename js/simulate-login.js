@@ -1,9 +1,11 @@
+import { agentNum, accessScreen, menuBar } from './dom.js'
+
 const SESSION_FLAG_KEY = 'isLoggedIn'
 const USER_INPUT_KEY = 'savedInputValue'
 
-let userInputVariable = ''
+export let userInputVariable = ''
 
-function loginAndSave(){
+export function loginAndSave(){
     const inputValue = agentNum.value
 
     if(inputValue == ''){
@@ -21,7 +23,7 @@ function loginAndSave(){
     updateStatus()
 }
 
-function logout(){
+export function logout(){
     localStorage.removeItem(USER_INPUT_KEY)
     localStorage.removeItem(SESSION_FLAG_KEY)
 

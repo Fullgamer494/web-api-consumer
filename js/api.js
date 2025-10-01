@@ -2,7 +2,7 @@ const API_QUOTES = '/zen/api/random'
 const API_FBI = '/fbi/wanted/v1/list'
 const API_FAKE_PERSON = '/person/api/'
 
-async function getAPIData(){
+export async function getAPIData(){
     try{
         const requestQuote = fetch(API_QUOTES)
         const requestFBI = fetch(API_FBI)

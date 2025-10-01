@@ -1,3 +1,6 @@
+import { getAPIData } from './api.js'
+import { profileContainer } from './dom.js'
+
 async function main(){
     const data = await getAPIData()
 
@@ -26,7 +29,6 @@ async function main(){
             </div>
         </div>
     `
-
 }
 
 main()

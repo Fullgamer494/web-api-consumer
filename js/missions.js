@@ -1,3 +1,6 @@
+import { getAPIData } from './api.js'
+import { crimiGrid } from './dom.js'
+
 async function main(){
     const data = await getAPIData()
     const most_wanted = data.wanted.items
@@ -17,8 +20,6 @@ async function main(){
             </div>
         `
     });
-    
-
 }
 
 main()
